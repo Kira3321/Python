@@ -1,4 +1,4 @@
-#первое задание
+# #первое задание
 a=10
 b=100
 c=a + b
@@ -8,33 +8,33 @@ lal=str(input("введите слово " ))
 print(lol)
 print(lal)
 #второе задание
-Input=int(input("введите число сенкунд "))
+Input=int(input("введите число сенкунд: "))
 minutes=Input // 60
 second=minutes%60
 hour=minutes // 60
 if second >= 60:
     second//60
     minutes+=1
-    print("часы:", hour, "минуты", minutes, "секунды", second)
+    print(f"{hour}:{minutes}:{second}")
 elif second <= 60:
     second=Input
-    print("часы:", hour, "минуты", minutes, "секунды", second)
+    print(f"{hour}:{minutes}:{second}")
 elif minutes >=60:
     minutes//60
     hour+=1
-    print("часы:", hour, "минуты", minutes, "секунды", second)
+    print(f"{hour}:{minutes}:{second}")
 elif Input == 1:
     second+=1
-    print("часы:", hour, "минуты", minutes, "секунды", second)
+    print(f"{hour}:{minutes}:{second}")
 else:
     second<=60
     minutes<=60
-    print("часы:",hour,"минуты",minutes,"секунды",second)
+    print(f"{hour}:{minutes}:{second}")
 #третье задание
 put=int(input("ввелите целое число "))
 summa=put + (put * 11) + (put * 111)
 print(summa)
-#четвертое задание
+# #четвертое задание
 v=int(input("находим самое большое  число из введенных "))
 m=v%10
 v=v//10
@@ -45,7 +45,7 @@ while v > 0:
     print(v)
     print(m)
 print(m)
-#пятое задание
+# #пятое задание
 var=int(input("введите выручку, целым числом "))
 var1=int(input("введите убыток "))
 perensumm=var - var1
